@@ -1,0 +1,105 @@
+[12-02-2024 13:02:11] [I] Server loaded. Type 'help' for help.
+[12-02-2024 13:02:31] [I] Commands:
+[12-02-2024 13:02:31] [I]    help [command] - Display the command list, or get help for a specific command.
+[12-02-2024 13:02:31] [I]    version - Displays server version info.
+[12-02-2024 13:02:31] [I]    exit - Exit the server application.
+[12-02-2024 13:02:31] [I]    stop - Stop hosting the server.
+[12-02-2024 13:02:31] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[12-02-2024 13:02:31] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[12-02-2024 13:02:31] [I]    reloadmaps - Reload all maps from disk.
+[12-02-2024 13:02:31] [I]    status - Display server status.
+[12-02-2024 13:02:31] [I]    mods - Display all loaded mods.
+[12-02-2024 13:02:31] [I]    mod <name...> - Display information about a loaded plugin.
+[12-02-2024 13:02:31] [I]    js <script...> - Run arbitrary Javascript.
+[12-02-2024 13:02:31] [I]    say <message...> - Send a message to all players.
+[12-02-2024 13:02:31] [I]    pause <on/off> - Pause or unpause the game.
+[12-02-2024 13:02:31] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[12-02-2024 13:02:31] [I]    fillitems [team] - Fill the core with items.
+[12-02-2024 13:02:31] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[12-02-2024 13:02:31] [I]    config [name] [value...] - Configure server settings.
+[12-02-2024 13:02:31] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[12-02-2024 13:02:31] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[12-02-2024 13:02:31] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[12-02-2024 13:02:31] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[12-02-2024 13:02:31] [I]    kick <username...> - Kick a person by name.
+[12-02-2024 13:02:31] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[12-02-2024 13:02:31] [I]    bans - List all banned IPs and IDs.
+[12-02-2024 13:02:31] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[12-02-2024 13:02:31] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[12-02-2024 13:02:31] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[12-02-2024 13:02:31] [I]    admins - List all admins.
+[12-02-2024 13:02:31] [I]    players - List all players currently in game.
+[12-02-2024 13:02:31] [I]    runwave - Trigger the next wave.
+[12-02-2024 13:02:31] [I]    load <slot> - Load a save from a slot.
+[12-02-2024 13:02:31] [I]    save <slot> - Save game state to a slot.
+[12-02-2024 13:02:31] [I]    saves - List all saves in the save directory.
+[12-02-2024 13:02:31] [I]    gameover - Force a game over.
+[12-02-2024 13:02:31] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[12-02-2024 13:02:31] [I]    search <name...> - Search players who have used part of a name.
+[12-02-2024 13:02:31] [I]    gc - Trigger a garbage collection. Testing only.
+[12-02-2024 13:02:31] [I]    yes - Run the last suggested incorrect command.
+[12-02-2024 13:02:54] [I] No custom maps loaded. To display built-in maps, use the "all" argument.
+[12-02-2024 13:02:54] [I] Map directory: /home/runner/Minserver/src/main/java/config/maps
+[12-02-2024 13:03:06] [I] Maps:
+[12-02-2024 13:03:06] [I]   Ancient_Caldera: Default / 256x256
+[12-02-2024 13:03:06] [I]   Archipelago: Default / 500x500
+[12-02-2024 13:03:06] [I]   Debris_Field: Default / 400x400
+[12-02-2024 13:03:06] [I]   Domain: Default / 494x494
+[12-02-2024 13:03:06] [I]   Fork: Default / 250x300
+[12-02-2024 13:03:06] [I]   Fortress: Default / 256x256
+[12-02-2024 13:03:06] [I]   Glacier: Default / 150x250
+[12-02-2024 13:03:06] [I]   Islands: Default / 256x256
+[12-02-2024 13:03:06] [I]   Labyrinth: Default / 200x200
+[12-02-2024 13:03:06] [I]   Maze: Default / 256x256
+[12-02-2024 13:03:06] [I]   Molten_Lake: Default / 400x400
+[12-02-2024 13:03:06] [I]   Mud_Flats: Default / 400x400
+[12-02-2024 13:03:06] [I]   Passage: Default / 500x120
+[12-02-2024 13:03:06] [I]   Shattered: Default / 350x350
+[12-02-2024 13:03:06] [I]   Tendrils: Default / 300x300
+[12-02-2024 13:03:06] [I]   Triad: Default / 200x200
+[12-02-2024 13:03:06] [I]   Veins: Default / 350x200
+[12-02-2024 13:03:06] [I]   Wasteland: Default / 300x300
+[12-02-2024 13:03:06] [I] Map directory: /home/runner/Minserver/src/main/java/config/maps
+[12-02-2024 13:06:55] [I] Server loaded. Type 'help' for help.
+[12-02-2024 13:07:00] [I] Commands:
+[12-02-2024 13:07:00] [I]    help [command] - Display the command list, or get help for a specific command.
+[12-02-2024 13:07:00] [I]    version - Displays server version info.
+[12-02-2024 13:07:00] [I]    exit - Exit the server application.
+[12-02-2024 13:07:00] [I]    stop - Stop hosting the server.
+[12-02-2024 13:07:00] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[12-02-2024 13:07:00] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[12-02-2024 13:07:00] [I]    reloadmaps - Reload all maps from disk.
+[12-02-2024 13:07:00] [I]    status - Display server status.
+[12-02-2024 13:07:00] [I]    mods - Display all loaded mods.
+[12-02-2024 13:07:00] [I]    mod <name...> - Display information about a loaded plugin.
+[12-02-2024 13:07:00] [I]    js <script...> - Run arbitrary Javascript.
+[12-02-2024 13:07:00] [I]    say <message...> - Send a message to all players.
+[12-02-2024 13:07:00] [I]    pause <on/off> - Pause or unpause the game.
+[12-02-2024 13:07:00] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[12-02-2024 13:07:00] [I]    fillitems [team] - Fill the core with items.
+[12-02-2024 13:07:00] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[12-02-2024 13:07:00] [I]    config [name] [value...] - Configure server settings.
+[12-02-2024 13:07:00] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[12-02-2024 13:07:00] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[12-02-2024 13:07:00] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[12-02-2024 13:07:00] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[12-02-2024 13:07:00] [I]    kick <username...> - Kick a person by name.
+[12-02-2024 13:07:00] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[12-02-2024 13:07:00] [I]    bans - List all banned IPs and IDs.
+[12-02-2024 13:07:00] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[12-02-2024 13:07:00] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[12-02-2024 13:07:00] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[12-02-2024 13:07:00] [I]    admins - List all admins.
+[12-02-2024 13:07:00] [I]    players - List all players currently in game.
+[12-02-2024 13:07:00] [I]    runwave - Trigger the next wave.
+[12-02-2024 13:07:00] [I]    load <slot> - Load a save from a slot.
+[12-02-2024 13:07:00] [I]    save <slot> - Save game state to a slot.
+[12-02-2024 13:07:00] [I]    saves - List all saves in the save directory.
+[12-02-2024 13:07:00] [I]    gameover - Force a game over.
+[12-02-2024 13:07:00] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[12-02-2024 13:07:00] [I]    search <name...> - Search players who have used part of a name.
+[12-02-2024 13:07:00] [I]    gc - Trigger a garbage collection. Testing only.
+[12-02-2024 13:07:00] [I]    yes - Run the last suggested incorrect command.
+[12-02-2024 13:07:41] [I] Loading map...
+[12-02-2024 13:07:42] [I] Map loaded.
+[12-02-2024 13:07:42] [I] Opened a server on port 6567.
