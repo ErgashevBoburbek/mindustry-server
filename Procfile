@@ -1,1 +1,1 @@
-web: java -jar target/server.jar
+web: java -jar src/main/java/server.jar
