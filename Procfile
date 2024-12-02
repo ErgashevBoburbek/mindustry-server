@@ -1,1 +1,1 @@
-worker: java -jar src/main/java/server.jar
+web: java -jar target/mindustry-server.jar
